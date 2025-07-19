@@ -1,47 +1,83 @@
-// TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
-    desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+    title: 'Weapons of Online Harassment: Menacing and Profiling Users via Social Apps',
+    subtitle: 'Accepted at IEEE Computer (2025)',
+    link: '',
+    image: '/images/projects/10.jpg',
+    date: '2025-06-01',
+    desc: 'Explores how users deploy menacing language and profiling tactics across social apps.',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
-    desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+    title: 'Understanding Inciting Speech as New Malice',
+    subtitle: 'IEEE Transactions on Computational Social Systems (June 2025)',
+    link: '',
+    image: '/images/projects/2.jpg',
+    date: '2025-06-01',
+    desc: 'Characterizes inciting speech on social media and frameworks its risks and definitions.',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
-    desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+    title: 'Analyzing Reddit Stories of Sexual Violence: Incidents, Effects, and Requests for Advice',
+    subtitle: 'ICWSM 2025',
+    link: '',
+    image: '/images/projects/3.jpeg',
+    date: '2025-06-01',
+    desc: 'Investigates narrative analysis of sexual violence incidents and support behaviors on Reddit.',
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+    title: 'Understanding Narratives of Trauma on Social Media',
+    subtitle: 'WebSci ’25',
+    link: '',
+    image: '/images/projects/4.jpg',
+    date: '2025-05-01',
+    desc: 'Examines how trauma is recounted online and the public discourse dynamics.',
+  },
+  {
+    title: 'Understanding App Reviews to Guide Misuse Audits',
+    subtitle: 'Communications of the ACM (2024)',
+    link: '',
+    image: '/images/projects/5.jpeg',
+    date: '2024-01-01',
+    desc: 'Uses review text to detect potential misuse in mobile apps and support audit efforts.',
+  },
+  {
+    title: 'Unveiling Harassment through Natural Language Processing',
+    subtitle: '2024 (preprint)',
+    link: '',
+    image: '/images/projects/6.jpg',
+    date: '2024-01-01',
+    desc: 'Develops NLP approaches to detect nuanced harassment and hate speech in online platforms.',
+  },
+  {
+    title: 'irogue: Identifying rogue behavior from app reviews',
+    subtitle: 'arXiv preprint (2023)',
+    link: '',
+    image: '/images/projects/7.jpg',
+    date: '2023-03-01',
+    desc: 'Detects rogue and malicious behavior via patterns in user app review texts.',
+  },
+  {
+    title: 'PACO: Provocation Involving Action, Culture, and Oppression',
+    subtitle: 'arXiv preprint (2023)',
+    link: '',
+    image: '/images/projects/8.jpg',
+    date: '2023-03-01',
+    desc: 'Analyzes provocations across cultural and oppression contexts online.',
+  },
+  {
+    title: 'Extracting Incidents, Effects, and Requested Advice from MeToo Posts',
+    subtitle: 'arXiv preprint (2023)',
+    link: '',
+    image: '/images/projects/9.jpg',
+    date: '2023-03-01',
+    desc: 'Parses MeToo narratives to separate incident reports, psychological effect descriptions, and advice requests.',
+  },
+  {
+    title: 'Pixie: Preference in Implicit and Explicit Comparisons',
+    subtitle: 'ACL Short Paper (2022)',
+    link: '',
+    image: '/images/projects/10.jpg',
+    date: '2022-06-01',
+    desc: 'Proposes Pixie, a model to identify preference signals in comparative language.',
   },
 ];
 

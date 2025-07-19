@@ -13,7 +13,7 @@ const About = () => {
         .then((r) => r.text())
         .then(setMarkdown);
     });
-  });
+  }, []); // Add empty dependency array to avoid infinite loop
 
   const count = markdown
     .split(/\s+/)
@@ -21,7 +21,7 @@ const About = () => {
     .filter((s) => s.length).length;
 
   return (
-    <Main title="About" description="Learn about Michael D'Angelo">
+    <Main title="About" description="Learn about Dr. Vaibhav Garg">
       <article className="post markdown" id="about">
         <header>
           <div className="title">
